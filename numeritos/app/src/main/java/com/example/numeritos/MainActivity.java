@@ -56,11 +56,11 @@ public class MainActivity extends AppCompatActivity implements View.OnKeyListene
                                 }
                                 else
                                     if(textote.length()==5){
-                                        textView.setText(met.doscifras((textote)));
+                                        textView.setText(met.cincocifras((textote)));
                                     }
                                     else
                                         if(textote.length()==6){
-                                            textView.setText(met.doscifras((textote)));
+                                            textView.setText(met.seiscifras((textote)));
                                         }
 
             }
